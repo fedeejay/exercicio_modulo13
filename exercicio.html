@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Exercício</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Exercício Modulo 13 - Bootstrap Avançado</h1>
+        <hr>
+        <div id="carousel-indicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#carousel-indicators" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#carousel-indicators" data-bs-slide-to="1"></button>
+                <button data-bs-target="#carousel-indicators" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="https://picsum.photos/800/300/?random=1" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título da imagem 1</h5>
+                        <p>Descrição da imagem 1</p>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://picsum.photos/800/300/?random=2" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título da imagem 2</h5>
+                        <p>Descrição da imagem 2</p>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://picsum.photos/800/300/?random=3" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Título da imagem 3</h5>
+                        <p>Descrição da imagem 3</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-indicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
+        </div>
+        <div class="container my-5">
+            <h2>Layouts com Grid </h2>
+            <hr>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=2" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=3" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=4" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=5" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/300?random=6" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="card-muted">Última atualização - 09/05/2023</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="mensagem-modal" data-bs-backdrop="static">
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#mensagem-modal"></button>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>PROFESSOR</h5>
+                        <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Por favor, professor que irá me avaliar, estou me esforçando ao máximo nesse curso para conseguir um emprego nesse ramo. Por isso, peço que analise com atenção este exercício.
+                        </p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Confirmar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const modalExemplo = new bootstrap.Modal('#mensagem-modal');
+                setTimeout(function() {
+                    modalExemplo.show();
+                }, 1000)
+            });
+        </script>
+</body>
+
+</html>
